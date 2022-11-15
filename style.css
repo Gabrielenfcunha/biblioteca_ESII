@@ -196,6 +196,7 @@ header .icons #menu_bars{
 
 .home .home-slider .slider .image img{
   width: 50%;
+  height: 80%;
 
 }
 .home .home-slider .slider .content span{
@@ -218,12 +219,12 @@ section .box img{
 }
 
 
-.disher .box-conteinar{
+.livros .box-conteinar{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(28rem,1fr));
   gap: 1.5rem;
 }
-.disher .box-conteinar .box{
+.livros .box-conteinar .box{
   padding: 2.5rem;
   background: #fff;
   border-radius: .5rem;
@@ -234,7 +235,50 @@ section .box img{
   text-align: center;
 }
 
+.livros .box-conteinar .box .fa-heart,
+.livros .box-conteinar .box .fa-eye{
+  position: absolute;
+  top: 1.5rem;
+  background: #eee;
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  color:var(--black);
+}
 
+.livros .box-conteinar .box .fa-heart:hover,
+.livros .box-conteinar .box .fa-eye:hover{
+  background: #F5A21B;
+  color: #fff;
+}
+.livros .box-conteinar .box .fa-heart{
+  right: -15rem;
+}
+.livros .box-conteinar .box .fa-eye{
+  left: -15rem;
+}
+
+
+.livros .box-conteinar .box:hover .fa-heart{
+  right: 1.5rem;
+}
+.livros .box-conteinar .box:hover .fa-eye{
+  left: 1.5rem;
+}
+
+.livros .box-conteinar .box h3{
+  color: var(--black);
+  font-size: 2.5rem;
+}
+.livros .box-conteinar .box .stars{
+  padding: 1rem 0;
+}
+.livros .box-conteinar .box .stars i{
+  font-size: 1.7rem;
+  color: #F5A21B;
+}
 
 
 
